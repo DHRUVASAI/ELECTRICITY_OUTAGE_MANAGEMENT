@@ -1,0 +1,18 @@
+{
+  "buildCommand": "npm run build",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": [
+    {
+      "key": "NEXT_PUBLIC_API_URL",
+      "description": "Backend API URL",
+      "value": "http://localhost:8080/api"
+    },
+    {
+      "key": "NEXT_PUBLIC_WS_URL",
+      "description": "WebSocket URL for real-time updates",
+      "value": "http://localhost:8080/ws-outages"
+    }
+  ]
+}
